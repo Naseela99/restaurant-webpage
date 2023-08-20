@@ -1,0 +1,224 @@
+body{
+    background-color: rgb(255, 220, 232);
+}
+.header{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: rgba(255, 0, 140,0.5); 
+    margin-top: 20px;
+    color: white;
+    
+}
+
+.header > div>a:hover{
+    background-color: rgb(255, 220, 232); 
+    /* margin-top: 20px; */
+    color: rgb(255, 0, 140);
+    border-radius: 7px;
+    
+}
+
+.header-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+
+}
+
+.intro{
+    margin: 100px 10px 0px 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    /* margin-top: 100px; */
+    border-radius: 10px;;
+    /* box-shadow: 0px 0px 10px 3px rgb(206, 151, 173); */
+}
+
+.picture{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+}
+
+.front-page-img{
+    height: 500px;
+    width: 500px;
+    align-self: center;
+    border-radius: 30px;
+    box-shadow: 10px 3px 10px 10px rgb(180, 108, 131);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(248, 229, 239); */
+    margin: 30px;
+    padding: 20px;
+    color: rgb(210, 27, 94);
+
+    /* border-radius: 50%;; */
+}
+.heading-welcome{
+    font-size: 42px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    color: rgb(210, 27, 94);
+}
+
+.heading-txt{
+    font-size: 34px;
+    font-weight: 800;
+
+}
+.txt-content{
+    /* width: 400px; */
+    margin-top: 30px;
+    align-self: center;
+    font-size: 24px;
+
+}
+
+.reach{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+}
+.serve, .clean, .taste{
+    /* width: 100px;
+    height: 100px; */
+    background-color: rgb(9, 8, 9);
+    border-radius: 30px;
+    padding: 10px;
+    /* border: 1px solid rgb(255, 132, 189); */
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(210, 27, 94);
+    box-shadow: 1px 1px 8px 5px pink;
+    margin: 15px;
+    font-size: 24px;
+
+}
+
+.footer{
+    margin: 30px;
+    background-color: rgb(199, 186, 189, 0.4);
+    /* height: 200px; */
+    border-radius: 2px;
+    box-shadow: 1px 1px 8px 5px rgb(101, 101, 101);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 30px 40px;
+    
+
+}
+
+.footer-links,.footer-loc{
+    color: rgb(255, 240, 248);
+    text-shadow:2px 2px 3px  rgb(237, 14, 122);
+
+    font-size: 16px;
+    padding-bottom: 10px;
+    
+}
+
+/* .footer-links:hover,.footer-loc:hover{
+    color: rgb(184, 53, 123);
+    font-size: 18px;
+    
+    
+} */
+
+.footer-links > div>a:hover{
+    color: rgb(184, 53, 123);
+    font-size: 18px;
+    
+    
+}
+
+.menu-header,.contact-header{
+    font-size: 54px;
+    font-weight: 800;
+    color:rgb(186, 61, 101);
+    margin-bottom: 30px
+}
+
+.menu-outer,.contact-outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.menu-div{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.menu-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 177, 207, 0.3);
+    padding: 20px 2px;
+    border-radius: 10px;
+}
+
+.menu-text{
+    color:rgb(9, 8, 9);
+    text-shadow: 2px 2px 3px  rgb(176, 37, 104);
+    font-size: 24px;
+}
+
+.menu-pic{
+    height: 200px;
+    width: 200px;
+}
+
+.contact-div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 177, 207, 0.3);
+    padding: 10% 0px;
+    box-shadow: 2px 3px 10px 10px rgb(156, 78, 116);
+}
+
+.contact-card{
+    background-color: rgb(251, 0, 117, 0.4);
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px 10px rgb(241, 239, 240);
+
+
+}
+
+.info-content{
+    color: rgb(255, 240, 252);
+    font-size: 16px;
+    font-weight: 500;
+    text-shadow:2px 2px 3px  rgb(237, 14, 122);
+}
